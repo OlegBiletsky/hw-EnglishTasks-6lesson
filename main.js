@@ -29,8 +29,6 @@ console.log(markECTS);
 
 alert(` Середній бал: ${averageMark} . Оцінка за ECTS: ${markECTS} . `);
 
-*/
-
 
 
 
@@ -61,17 +59,20 @@ alert(sum);
 
 
 
-
-
-
-
- 
-
+*/
 //3. Write a JavaScript program to construct the following pattern, using a nested for loop./*
 /*  
     *
-    * * 
-    * * * 
-    * * * * 
+    * *
+    * * *
+    * * * *
     * * * * *
 */
+
+let n = prompt("Скільки рядків драбинки малюємо?");
+let element = "";
+for (let i = 1; i <= n; i++) {
+    element += "* ";
+    document.write(element + "<br>");
+}
+
