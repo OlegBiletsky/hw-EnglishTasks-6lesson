@@ -41,15 +41,15 @@ alert(` Середній бал: ${averageMark} . Оцінка за ECTS: ${mark
 alert("task 2");
 const NUM1 = 3;
 const NUM2 = 5;
-let sum = 0;
+let sums = 0;
 for (let i=1; i < 1000; i++) {
     if (i%NUM1 == 0 || i%NUM2 == 0 ) {
-        sum +=i;
+        sums +=i;
         console.log(i);
     }
 }
-console.log(sum);
-alert(sum);
+console.log(sums);
+alert(sums);
 
 
 
