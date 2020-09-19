@@ -1,5 +1,5 @@
 //1.Write a JavaScript program which compute, the average marks of the following students Then, this average is used to determine the corresponding grade.
-/*
+
 alert("task 1");
 let studentList  = [80, 77 , 68, 88, 95];
 let sum = 0, averageMark, markECTS;
@@ -59,7 +59,7 @@ alert(sum);
 
 
 
-*/
+
 //3. Write a JavaScript program to construct the following pattern, using a nested for loop./*
 /*  
     *
@@ -68,7 +68,7 @@ alert(sum);
     * * * *
     * * * * *
 */
-
+alert("task 3");
 let n = prompt("Скільки рядків драбинки малюємо?");
 let element = "";
 for (let i = 1; i <= n; i++) {
