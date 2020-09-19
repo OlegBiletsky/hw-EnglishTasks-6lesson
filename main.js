@@ -1,3 +1,6 @@
+//1.Write a JavaScript program which compute, the average marks of the following students Then, this average is used to determine the corresponding grade.
+/*
+alert("task 1");
 let studentList  = [80, 77 , 68, 88, 95];
 let sum = 0, averageMark, markECTS;
 
@@ -26,3 +29,49 @@ console.log(markECTS);
 
 alert(` Середній бал: ${averageMark} . Оцінка за ECTS: ${markECTS} . `);
 
+*/
+
+
+
+
+
+
+
+
+//2. Write a JavaScript program to sum the multiples of 3 or 5 under 1000.
+
+alert("task 2");
+const NUM1 = 3;
+const NUM2 = 5;
+let sum = 0;
+for (let i=1; i < 1000; i++) {
+    if (i%NUM1 == 0 || i%NUM2 == 0 ) {
+        sum +=i;
+        console.log(i);
+    }
+}
+console.log(sum);
+alert(sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+//3. Write a JavaScript program to construct the following pattern, using a nested for loop./*
+/*  
+    *
+    * * 
+    * * * 
+    * * * * 
+    * * * * *
+*/
