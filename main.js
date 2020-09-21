@@ -11,8 +11,6 @@ for (i = 0; i < studentList.length; i++) {
 averageMark = sum / studentList.length;
 console.log(averageMark);
 
-
-
 if (averageMark < 60 ) {
     markECTS = "F";
 } else if (averageMark < 70 ) {
@@ -26,7 +24,6 @@ if (averageMark < 60 ) {
 }
 
 console.log(markECTS);
-
 alert(` Середній бал: ${averageMark} . Оцінка за ECTS: ${markECTS} . `);
 
 
@@ -36,8 +33,10 @@ alert(` Середній бал: ${averageMark} . Оцінка за ECTS: ${mark
 
 
 
-//2. Write a JavaScript program to sum the multiples of 3 or 5 under 1000.
 
+
+
+//2. Write a JavaScript program to sum the multiples of 3 or 5 under 1000.
 alert("task 2");
 const NUM1 = 3;
 const NUM2 = 5;
@@ -60,6 +59,8 @@ alert(sums);
 
 
 
+
+
 //3. Write a JavaScript program to construct the following pattern, using a nested for loop./*
 /*  
     *
@@ -68,6 +69,7 @@ alert(sums);
     * * * *
     * * * * *
 */
+
 alert("task 3");
 let n = prompt("Скільки рядків драбинки малюємо?");
 let element = "";
@@ -75,4 +77,11 @@ for (let i = 1; i <= n; i++) {
     element += "* ";
     document.write(element + "<br>");
 }
-
+//
+alert("task 3");
+let m = prompt("Скільки рядків драбинки малюємо?");
+let str = '';
+for (let j = 0; j < m; j++) {
+	str = str + '* ';
+	console.log(str);
+}
